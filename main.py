@@ -9,7 +9,6 @@ def process_list(input_list):
 
     return result_list
 
-# Example usage
 try:
     input_list = list(map(int, input("Enter a list of integers separated by space: ").split()))
     result = process_list(input_list)
